@@ -12,17 +12,25 @@ Everything was done in the terminal (readme and dockerfile).
 
 ## Instructions
 1. Clone repository
-```git clone https://github.com/pedro-bacellar/basic-dockerfile-roadmap.sh```
-```cd basic-dockerfile-roadmap.sh```
+```bash
+git clone https://github.com/pedro-bacellar/basic-dockerfile-roadmap.sh
+cd basic-dockerfile-roadmap.sh
+```
 
 2. Build the Docker Image
-```docker build -t hello-captain .```
+```bash
+docker build -t hello-captain .
+```
 
 3. Run the image
-```docker run hello-captain```
+```bash
+docker run hello-captain
+```
 
 4. Output
-```Hello, Captain!```
+```bash
+Hello, Captain!
+```
 
 ## Roadmap.sh Requirements
 
